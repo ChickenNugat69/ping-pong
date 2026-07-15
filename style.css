@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#game {
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    border: 4px solid white;
+}
+
+#overlay {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#overlay.hidden {
+    display: none;
+}
+
+#popup {
+
+    background: white;
+
+    color: black;
+
+    width: 400px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+#restartButton {
+
+    margin-top: 20px;
+
+    padding: 10px 25px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 8px;
+
+}
